@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 09:55:22 p. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0xNjswOToxNzo1NyBhLiBtLjsyOTU2"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0xNjswOTo1MjoxNSBhLiBtLjsxOzMwNTc="/>
+        <attribute name="edited" value="VmFsZXJpYTtERVNLVE9QLTE4VElES1U7MjAxOC0xMS0xMTswOTo1NToyMiBwLiBtLjsxOzMzNTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ingresa el a&#241;o&quot;" newline="True"/>
+            <declare name="iAnnio" type="Integer" array="False" size=""/>
+            <input variable="iAnnio"/>
+            <if expression="(iAnnio % 4 == 0)">
+                <then>
+                    <if expression="!(iAnnio % 100 == 0)">
+                        <then>
+                            <if expression="!(iAnnio % 400 == 0)">
+                                <then>
+                                    <output expression="&quot;A&#241;o bisiesto&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;A&#241;o no bisiesto&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;A&#241;o bisiesto&quot;" newline="False"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;A&#241;o no bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

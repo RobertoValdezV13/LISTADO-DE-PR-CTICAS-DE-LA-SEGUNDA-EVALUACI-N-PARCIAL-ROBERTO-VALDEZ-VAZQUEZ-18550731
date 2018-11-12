@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 09:53:25 p. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0wMzswOToxNjoxNCBhLiBtLjsyOTQ0"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0wMzswOTozMjo0MyBhLiBtLjsxMzszMTAz"/>
+        <attribute name="edited" value="VmFsZXJpYTtERVNLVE9QLTE4VElES1U7MjAxOC0xMS0xMTswOTo1MzoyNSBwLiBtLjsxOzMzNjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Cual es tu Edad?&quot;" newline="True"/>
+            <declare name="iEdad" type="Integer" array="False" size=""/>
+            <input variable="iEdad"/>
+            <output expression="&quot;&#191;Tienes tu INE?&quot;" newline="True"/>
+            <declare name="bINE" type="Boolean" array="False" size=""/>
+            <input variable="bINE"/>
+            <if expression="iEdad &gt;= 18">
+                <then>
+                    <if expression="bINE == true">
+                        <then>
+                            <output expression="&quot;Puedes entrar al antro&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#161;Saquese de aqui!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;&#161;Saquese de aqui!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

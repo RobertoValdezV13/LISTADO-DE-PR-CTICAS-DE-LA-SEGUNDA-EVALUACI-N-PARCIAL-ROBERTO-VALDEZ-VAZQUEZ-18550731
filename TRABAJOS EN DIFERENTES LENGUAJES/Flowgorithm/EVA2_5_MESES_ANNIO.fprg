@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 09:54:46 p. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0wODswOToxMjoyNyBhLiBtLjsyOTQ5"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzIwNDM7MjAxOC0xMC0wODswOTozNDowMSBhLiBtLjs1OzMwNTc="/>
+        <attribute name="edited" value="VmFsZXJpYTtERVNLVE9QLTE4VElES1U7MjAxOC0xMS0xMTswOTo1NDo0NiBwLiBtLjsxOzMzNjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Introduce un numero de mes&quot;" newline="True"/>
+            <declare name="iNumero" type="Integer" array="False" size=""/>
+            <input variable="iNumero"/>
+            <if expression="iNumero == 12">
+                <then>
+                    <output expression="&quot;Diciembre&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="iNumero == 11">
+                        <then>
+                            <output expression="&quot;Noviembre&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="iNumero == 10">
+                                <then>
+                                    <output expression="&quot;Octubre&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="iNumero == 9">
+                                        <then>
+                                            <output expression="&quot;Septiembre&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="iNumero == 8">
+                                                <then>
+                                                    <output expression="&quot;Agosto&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="iNumero == 7">
+                                                        <then>
+                                                            <output expression="&quot;Julio&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="iNumero == 6">
+                                                                <then>
+                                                                    <output expression="&quot;Junio&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="iNumero == 5">
+                                                                        <then>
+                                                                            <output expression="&quot;Mayo&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="iNumero == 4">
+                                                                                <then>
+                                                                                    <output expression="&quot;Abril&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="iNumero == 3">
+                                                                                        <then>
+                                                                                            <output expression="&quot;Marzo&quot;" newline="True"/>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <if expression="iNumero == 2">
+                                                                                                <then>
+                                                                                                    <output expression="&quot;Febrero&quot;" newline="True"/>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <if expression="iNumero == 1">
+                                                                                                        <then>
+                                                                                                            <output expression="&quot;Enero&quot;" newline="True"/>
+                                                                                                        </then>
+                                                                                                        <else>
+                                                                                                            <if expression="iNumero &gt; 12">
+                                                                                                                <then>
+                                                                                                                    <output expression="&quot;Numero fuera de rango&quot;" newline="True"/>
+                                                                                                                </then>
+                                                                                                                <else>
+                                                                                                                    <if expression="iNumero &lt; 1">
+                                                                                                                        <then>
+                                                                                                                            <output expression="&quot;Numero fuera de rango&quot;" newline="True"/>
+                                                                                                                        </then>
+                                                                                                                        <else/>
+                                                                                                                    </if>
+                                                                                                                </else>
+                                                                                                            </if>
+                                                                                                        </else>
+                                                                                                    </if>
+                                                                                                </else>
+                                                                                            </if>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

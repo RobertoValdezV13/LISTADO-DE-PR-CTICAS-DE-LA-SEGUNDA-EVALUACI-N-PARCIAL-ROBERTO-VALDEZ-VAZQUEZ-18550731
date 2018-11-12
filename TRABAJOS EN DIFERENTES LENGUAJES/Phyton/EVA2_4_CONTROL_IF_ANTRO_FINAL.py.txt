@@ -1,0 +1,11 @@
+print("¿Cual es tu Edad?")
+iEdad = int(input())
+print("¿Tienes tu INE?")
+bINE = (input().lower == 'true')
+if iEdad >= 18:
+    if bINE == True:
+        print("Puedes entrar al antro")
+    else:
+        print("¡Saquese de aqui!")
+else:
+    print("¡Saquese de aqui!")

@@ -1,0 +1,13 @@
+maTTer = True
+if maTTer == True:
+    serLib = True
+    if serLib == True:
+        resLib = True
+        if resLib == True:
+            print("Te puedes Titular")
+        else:
+            print("No te puedes Titular")
+    else:
+        print("No te puedes Titular")
+else:
+    print("No te puedes Titular")

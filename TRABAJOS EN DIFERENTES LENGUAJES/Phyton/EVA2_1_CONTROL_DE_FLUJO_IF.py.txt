@@ -1,0 +1,9 @@
+print("¿Que Calificación obtuvo en Fundamentos de Programación?")
+califa = float(input())
+print("Tu calificación es")
+print(califa)
+if califa >= 70:
+    print("Materia aprobada")
+else:
+    print("Materia reprobada")
+

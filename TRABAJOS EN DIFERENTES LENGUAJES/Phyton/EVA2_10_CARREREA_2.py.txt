@@ -1,0 +1,7 @@
+servicio = True
+residencias = True
+materias = True
+if servicio == True and residencias == True and materias == True:
+    print("Te puedes Titular")
+else:
+    print("No te puedes Titular")

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-11-11 10:32:51 p. m."/>
+        <attribute name="created" value="aW52aXRhZG8yO0xBQkExMzIwNTI7MjAxOC0wOS0xOTswOToyMToxMSBhLiBtLjsyOTQ2"/>
+        <attribute name="edited" value="aW52aXRhZG8yO0xBQkExMzIwNTI7MjAxOC0wOS0xOTswOTo0NToyMSBhLiBtLjszOzMwNjM="/>
+        <attribute name="edited" value="VmFsZXJpYTtERVNLVE9QLTE4VElES1U7MjAxOC0xMS0xMTsxMDozMjo1MSBwLiBtLjsyOzMzNDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Que Calificaci&#243;n obtuvo en Fundamentos de Programaci&#243;n?&quot;" newline="True"/>
+            <declare name="Califa" type="Real" array="False" size=""/>
+            <input variable="Califa"/>
+            <output expression="&quot;Tu calificaci&#243;n es&quot;" newline="True"/>
+            <output expression="Califa" newline="True"/>
+            <if expression="Califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Materia aprobada&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Materia reprobada&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

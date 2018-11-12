@@ -1,0 +1,8 @@
+total = 0
+for intu in range(1, 5 + 1, 1):
+    print("Ingrese la Edad " + intu)
+    suma = i(input())
+    total = total + suma
+media = float(total) / 5
+print("La Suma es " + total)
+print("La Media es " + media)
